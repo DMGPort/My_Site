@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@media (min-width: 1280px) {
+    body {
+        margin-right: 250px;
+    }
+}
+
+@media (max-width: 1280px) {
+    body {
+        margin-top: 50px;
+    }
+}
+.container {
+    padding: 25px 0 25px 0;
+}
