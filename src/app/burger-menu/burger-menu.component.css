@@ -4,10 +4,13 @@
     border-radius: 0 0 5px 0;
     position: fixed;
     z-index: 30;
+    width: 100%;
+    margin-right: 1px;
+    margin-left:auto;
 }
 #burger-menu {
-    font-size:26px;
-    padding: 15px 20px 20px 15px;
+    font-size:24px;
+    padding: 10px 20px 10px 15px;
     color: white;
 }
 .menu-item *{
