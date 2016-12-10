@@ -9,6 +9,11 @@
         margin-top: 50px;
     }
 }
+@media (max-width: 600px) {
+    body {
+        margin-top: 0px
+    }
+}
 .container {
     padding: 25px 0 25px 0;
 }
