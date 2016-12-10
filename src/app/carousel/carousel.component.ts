@@ -11,7 +11,7 @@ export class CarouselComponent {
 }
 
 var IMAGES: CarouselImage[] = [
-    { "title": "Blah blah", "url": "http://lorempixel.com/output/abstract-q-c-1227-804-7.jpg"},
-    { "title": "Mountains..", "url": "http://lorempixel.com/output/abstract-q-c-1227-804-4.jpg"},
-    { "title": "Clouds n shit", "url": "http://lorempixel.com/output/abstract-q-c-1227-804-10.jpg"}
+    { "title": "Colors", "url": "http://lorempixel.com/output/abstract-q-c-1227-804-7.jpg"},
+    { "title": "Lights", "url": "http://lorempixel.com/output/abstract-q-c-1227-804-4.jpg"},
+    { "title": "Patterns", "url": "http://lorempixel.com/output/abstract-q-c-1227-804-10.jpg"}
 ];

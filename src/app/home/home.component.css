@@ -1,4 +1,7 @@
 #my-carousel {
-    max-width: 90%;
+    max-width: 101%;
     overflow: hidden;
+}
+.jumbotron {
+    padding: 20px;
 }
