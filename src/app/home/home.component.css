@@ -2,6 +2,10 @@
     max-width: 101%;
     overflow: hidden;
 }
-.jumbotron {
+.container {
     padding: 20px;
+}
+p:first-letter{
+    font-family: 'Great Vibes', cursive;
+    font-size: 150%
 }

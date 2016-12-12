@@ -34,6 +34,10 @@
     color:#fff;
     background-color:rgba(0,0,0,0.75);
 }
+.carousel h2:first-letter{
+    font-family: 'Great Vibes', cursive;
+    font-size: 150%
+}
 
 @keyframes carousel{
     0%  { left:-5%; }

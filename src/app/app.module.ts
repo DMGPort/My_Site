@@ -15,6 +15,8 @@ import { BrowseComponent } from './browse/browse.component';
 import { RegisterComponent } from './register/register.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BurgerMenuComponent } from './burger-menu/burger-menu.component';
+import { StaffListComponent } from './staff-list/staff-list.component';
+import { StaffDetailComponent } from './staff-detail/staff-detail.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { BurgerMenuComponent } from './burger-menu/burger-menu.component';
     BrowseComponent,
     RegisterComponent,
     CarouselComponent,
-    BurgerMenuComponent
+    BurgerMenuComponent,
+    StaffListComponent,
+    StaffDetailComponent
   ],
   imports: [
     BrowserModule,

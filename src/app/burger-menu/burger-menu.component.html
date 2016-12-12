@@ -2,11 +2,11 @@
     <div class="navbar-header">
         <a (click)="toggle()" class="title">
             <div>
-                <span id="burger-menu" class="glyphicon glyphicon-align-justify"></span>
+                <span id="burger-glyph" class="glyphicon glyphicon-align-justify"></span>
             </div>
         </a>
     </div>
-    <div [hidden]="isClosed" class="content">
+    <nav [hidden]="isClosed" class="content">
         <ul>
             <li class="menu-item" (click)="toggle()"><a routerLink="/home" routerLinkActive="active">Home</a></li>
             <li class="menu-item" (click)="toggle()"><a routerLink="/browse" routerLinkActive="active">Browse</a></li>
@@ -15,5 +15,5 @@
             <li class="menu-item" (click)="toggle()"><a routerLink="/contact" routerLinkActive="active">Get in touch</a></li>
             <li class="menu-item" (click)="toggle()"><a routerLink="/login" routerLinkActive="active">Login</a></li>
         </ul>
-    </div>
+    </nav>
 </div>

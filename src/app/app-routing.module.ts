@@ -5,6 +5,8 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { BrowseComponent } from './browse/browse.component';
 import { WhoComponent } from './who/who.component';
+import { StaffDetailComponent } from './staff-detail/staff-detail.component';
+
 import { WhatComponent } from './what/what.component';
 import { ContactComponent } from './contact/contact.component';
 import { LogInComponent } from './log-in/log-in.component';
@@ -17,6 +19,7 @@ const routes: Routes = [
     { path: 'login', component: LogInComponent },
     { path: 'register', component: RegisterComponent },
     { path: 'who', component: WhoComponent },
+    { path: 'employee/:id', component: StaffDetailComponent },    
     { path: 'what', component: WhatComponent },
     { path: 'contact', component: ContactComponent }
 ];
